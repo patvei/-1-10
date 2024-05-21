@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <script>
+            let secretNumber=Math.floor(Math.random() *10)+1
+            let atems=1
+        console.log("Я загадал число от 1 до 10. Попробуй угадать его!");
+        while (atems<3) {
+        let userNumber=Number (prompt ("Веди число" ) )
+        console.log(userNumber)
+        
+
+        if (userNumber < secretNumber) {
+    console.log("Секретное число больше");
+    atems--
+    } else if (userNumber === secretNumber) {
+    console.log("Вы угадали!")
+    break
+    } else {
+    console.log("Секретное число меньше");
+    atems--
+    }
+         }
+
+         </script>   
+    </body>
+    Ку ку пупсик 🥵😏 мухахаххахахахахахахха 😱🫣
+</html>
